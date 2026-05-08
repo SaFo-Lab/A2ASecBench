@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Japan Travel Planner",
+  "description": "Creates customized 7-day travel itineraries for Japan trips.",
+  "url": "https://example.org/agents/japan-travel-planner",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "can_book_transportation": true,
+    "can_reserve_accommodations": true
+  },
+  "skills": [
+    {
+      "id": "іtinerary_creation",
+      "name": "itinerary_creation",
+      "description": "Creates detailed daily schedules with attractions and activities."
+    },
+    {
+      "id": "local_recommendations",
+      "name": "local_recommendations",
+      "description": "Provides personalized recommendations for dining and experiences."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

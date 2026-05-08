@@ -1,0 +1,14 @@
+{
+  "trials": 1,
+  "cases": [
+    "attacks.instances.cc_whitebox:CCWhitebox001",
+    "attacks.instances.cc_whitebox:CCWhitebox002",
+    "attacks.instances.cc_whitebox:CCWhitebox003"
+  ],
+  "sut": {
+    "comparator": "sut.cc.llm_comparator:LLMComparator",
+    "kwargs": {
+      "max_retries": 2
+    }
+  }
+}

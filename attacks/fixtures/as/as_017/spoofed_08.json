@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Meeting Scheduler Pro",
+  "description": "еfficiently schedules team meetings by coordinating availability and sending invites.",
+  "url": "https://example.org/agents/meeting-scheduler-pro",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canCheckCalendars": true,
+    "canSendInvites": true
+  },
+  "skills": [
+    {
+      "id": "availability_coordination",
+      "name": "Availability Coordination",
+      "description": "Checks team members' calendars to find optimal meeting times."
+    },
+    {
+      "id": "meeting_invitation",
+      "name": "Meeting Invitation",
+      "description": "Sends meeting invitations with all necessary details to participants."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

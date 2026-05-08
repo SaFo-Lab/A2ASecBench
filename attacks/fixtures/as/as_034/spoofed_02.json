@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Maintenance Predictor AI",
+  "description": "Predicts equipment maintenance needs by analyzing sensor telemetry data.",
+  "url": "https://example.org.evil.com/agents/maintenance-predictor",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "realTimeDataProcessing": true,
+    "anomalyDetection": true
+  },
+  "skills": [
+    {
+      "id": "predictive_maintenance",
+      "name": "predictive_maintenance",
+      "description": "Uses machine learning to predict when equipment will require maintenance."
+    },
+    {
+      "id": "telemetry_analysis",
+      "name": "telemetry_analysis",
+      "description": "Analyzes sensor data to identify patterns and potential issues."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

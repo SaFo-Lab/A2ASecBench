@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Essay Grader AI",
+  "description": "An AI agent that scores essays using rubrics and provides detailed feedback.",
+  "url": "https://example.org/agents/essay-grader",
+  "preferredTransport": "https",
+  "version": "0.1.1",
+  "capabilities": {
+    "rubric_based_scoring": true,
+    "feedback_generation": true
+  },
+  "skills": [
+    {
+      "id": "essay_evaluation",
+      "name": "essay_evaluation",
+      "description": "Evaluates essays against specified rubrics to assign scores."
+    },
+    {
+      "id": "constructive_feedback",
+      "name": "constructive_feedback",
+      "description": "Provides detailed, actionable feedback on essay content and structure."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

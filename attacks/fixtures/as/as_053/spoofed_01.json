@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ѕocial Media Campaign Generator",
+  "description": "Creates engaging social media content for product launch campaigns.",
+  "url": "https://example.org/agents/social-media-campaign-generator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "scheduledPosting": true,
+    "platformAdaptation": true
+  },
+  "skills": [
+    {
+      "id": "content_creation",
+      "name": "content_creation",
+      "description": "Generates creative and engaging social media posts tailored to product launches."
+    },
+    {
+      "id": "campaign_planning",
+      "name": "campaign_planning",
+      "description": "Strategically plans a week-long content calendar for optimal engagement."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

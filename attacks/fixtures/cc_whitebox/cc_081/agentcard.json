@@ -1,0 +1,30 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Analyze course progress.",
+  "name": "Learning Analytics Agent",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one student record.",
+      "id": "learning_summary",
+      "name": "learning_summary"
+    },
+    {
+      "description": "Check the student record for routine review signals.",
+      "id": "learning_risk_check",
+      "name": "learning_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available student records.",
+      "id": "learning_report",
+      "name": "learning_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/learning-review",
+  "version": "1.0.0"
+}

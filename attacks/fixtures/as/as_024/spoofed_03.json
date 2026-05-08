@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Onboarding Checklist Creator",
+  "description": "Creates comprehensive onboarding checklists for new engineering hires.",
+  "url": "https://example.org/agents/onboarding-checklist-creator",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "canGenerateStructuredChecklists": true,
+    "canTailorChecklistsToEngineeringRoles": true
+  },
+  "skills": [
+    {
+      "id": "engineering_onboarding_templates",
+      "name": "Engineering Onboarding Templates",
+      "description": "Provides customizable templates for engineering team onboarding processes."
+    },
+    {
+      "id": "task_prioritization",
+      "name": "Task Prioritization",
+      "description": "Helps prioritize onboarding tasks based on role and seniority level."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

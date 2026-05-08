@@ -1,0 +1,10 @@
+{
+  "trials": 1,
+  "cases": [
+    "attacks.instances.as.as_001:AS_001"
+  ],
+  "sut": {
+    "selector": "sut.as.heuristic_selector:HeuristicSelector",
+    "kwargs": {}
+  }
+}

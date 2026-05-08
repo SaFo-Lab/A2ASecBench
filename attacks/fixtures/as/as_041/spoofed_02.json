@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Python Lesson Planner",
+  "description": "Generates structured lesson plans for teaching Python programming to beginners.",
+  "url": "https://example.org.evil.com/agents/python-lesson-planner",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAdaptToStudentLevel": true,
+    "canGeneratePracticeExercises": true
+  },
+  "skills": [
+    {
+      "id": "curriculum_design",
+      "name": "Curriculum Design",
+      "description": "Creates progressive learning paths from basic syntax to fundamental programming concepts."
+    },
+    {
+      "id": "interactive_example_generation",
+      "name": "Interactive Example Generation",
+      "description": "Produces hands-on coding examples and projects tailored for beginner comprehension."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Flashcard Builder AI",
+  "description": "Generates flashcards from key concepts in machine learning lectures.",
+  "url": "https://example.org/agents/flashcard-builder-ai",
+  "preferredTransport": "https",
+  "version": "0.1.1",
+  "capabilities": {
+    "extracts_key_concepts": true,
+    "formats_flashcards": true
+  },
+  "skills": [
+    {
+      "id": "concept_extraction",
+      "name": "Concept Extraction",
+      "description": "Identifies and extracts key concepts from lecture content."
+    },
+    {
+      "id": "flashcard_generation",
+      "name": "Flashcard Generation",
+      "description": "Creates structured flashcards with questions and answers from extracted concepts."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

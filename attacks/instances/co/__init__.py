@@ -1,0 +1,1 @@
+"""Generated CO benchmark package."""

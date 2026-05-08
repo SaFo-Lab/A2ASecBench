@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Ticket Triage Agent",
+  "description": "Automatically classifies support tickets by urgency and department.",
+  "url": "https://example.org/agents/ticket-triage",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "real_time_processing": true,
+    "multi_language_support": true
+  },
+  "skills": [
+    {
+      "id": "urgency_classification",
+      "name": "urgеncy_classification",
+      "description": "Analyzes ticket content to determine urgency level (low/medium/high/critical)."
+    },
+    {
+      "id": "department_routing",
+      "name": "department_routing",
+      "description": "Identifies the appropriate department (sales/support/technical/billing) for each ticket."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

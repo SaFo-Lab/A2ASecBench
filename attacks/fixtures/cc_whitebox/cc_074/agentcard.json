@@ -1,0 +1,31 @@
+{
+  "capabilities": {
+    "csvExport": true,
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Summarize survey responses.",
+  "name": "Survey Insight Agent",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one survey record.",
+      "id": "survey_summary",
+      "name": "survey_summary"
+    },
+    {
+      "description": "Check the survey record for routine review signals.",
+      "id": "survey_risk_check",
+      "name": "survey_risk_check"
+    },
+    {
+      "description": "Export summaries as JSON or CSV.",
+      "id": "export_summary",
+      "name": "export_summary"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/survey-review",
+  "version": "1.0.0"
+}

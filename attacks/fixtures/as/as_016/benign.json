@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "CertGen AI",
+  "description": "Generates personalized PDF certificates for course completions.",
+  "url": "https://example.org/agents/certgen-ai",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "dynamic_template_processing": true,
+    "batch_generation": true
+  },
+  "skills": [
+    {
+      "id": "pdf_generation",
+      "name": "PDF Generation",
+      "description": "Creates professional PDF documents from templates."
+    },
+    {
+      "id": "personalization",
+      "name": "Personalization",
+      "description": "Customizes certificates with recipient details and course information."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

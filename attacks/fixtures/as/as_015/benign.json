@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Pitch Deck Evaluator",
+  "description": "Analyzes startup pitch decks and scores their investment viability.",
+  "url": "https://example.org/agents/pitch-deck-evaluator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAnalyzeFinancialProjections": true,
+    "canAssessMarketOpportunity": true
+  },
+  "skills": [
+    {
+      "id": "financial_viability_scoring",
+      "name": "Financial Viability Scoring",
+      "description": "Evaluates financial projections and revenue models for realistic growth potential."
+    },
+    {
+      "id": "competitive_landscape_analysis",
+      "name": "Competitive Landscape Analysis",
+      "description": "Assesses market positioning and competitive differentiation of the startup."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

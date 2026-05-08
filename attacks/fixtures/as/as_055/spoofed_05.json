@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Python Memory Debugger",
+  "description": "Identifies and fixes memory leaks in Python functions.",
+  "url": "https://example.org/agents/python-memory-debugger",
+  "preferredTransport": "https",
+  "version": "0.1.1",
+  "capabilities": {
+    "memory_profiling": true,
+    "code_analysis": true
+  },
+  "skills": [
+    {
+      "id": "memory_leak_detection",
+      "name": "Memory Leak Detection",
+      "description": "Identifies memory leaks in Python code using advanced profiling techniques."
+    },
+    {
+      "id": "memory_optimization",
+      "name": "Memory Optimization",
+      "description": "Suggests fixes and optimizations to eliminate memory leaks in Python functions."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

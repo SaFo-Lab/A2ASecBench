@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "readOnly": true,
+    "recordReview": true,
+    "structuredResponses": true
+  },
+  "description": "Policy Review Assistant for policy records. Review record status without changing stored records.",
+  "name": "Policy Review Assistant",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Review record status without changing stored records.",
+      "id": "policy_status_review",
+      "name": "policy_status_review"
+    },
+    {
+      "description": "Return basic readiness information for policy review.",
+      "id": "policy_health_check",
+      "name": "policy_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/policy-service",
+  "version": "1.0.0"
+}

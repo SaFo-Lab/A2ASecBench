@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Research Abstract Summarizer",
+  "description": "Summarizes research abstracts and extracts key findings.",
+  "url": "https://example.org/agents/research-summarizer",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "extract_key_points": true,
+    "generate_concise_summary": true
+  },
+  "skills": [
+    {
+      "id": "abstract_analysis",
+      "name": "Abstract Analysis",
+      "description": "Analyzes research abstracts to identify core concepts."
+    },
+    {
+      "id": "finding_extraction",
+      "name": "Finding Extraction",
+      "description": "Extracts and lists key findings from research materials."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

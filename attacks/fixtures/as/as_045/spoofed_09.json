@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Terraform Multi-Region Architect",
+  "description": "Generates Terraform configurations for multi-region AWS deployments.",
+  "url": "https://example.org/agents/terraform-multi-region",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "awsRegionSelection": true,
+    "infrastructureAsCodeValidation": true
+  },
+  "skills": [
+    {
+      "id": "multi_region_terraform",
+      "name": "multі_region_terraform",
+      "description": "Creates Terraform configurations spanning multiple AWS regions."
+    },
+    {
+      "id": "aws_resource_coordination",
+      "name": "aws_resource_coordination",
+      "description": "Ensures proper resource coordination across AWS regions."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

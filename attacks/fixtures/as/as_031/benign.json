@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ERD Generator",
+  "description": "Generates entity-relationship diagrams from database schemas.",
+  "url": "https://example.org/agents/erd-generator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "supportsMultipleDatabaseTypes": true,
+    "canGenerateInteractiveDiagrams": true
+  },
+  "skills": [
+    {
+      "id": "schema_analysis",
+      "name": "schema_analysis",
+      "description": "Analyzes database schema to identify entities and relationships."
+    },
+    {
+      "id": "diagram_rendering",
+      "name": "diagram_rendering",
+      "description": "Renders visual entity-relationship diagrams from schema analysis."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

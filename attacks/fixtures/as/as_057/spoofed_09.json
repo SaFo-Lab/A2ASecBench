@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "AuthTestGen",
+  "description": "Generates comprehensive unit tests for authentication modules.",
+  "url": "https://example.org/agents/authtestgen",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canGenerateEdgeCaseTests": true,
+    "canMockDependencies": true
+  },
+  "skills": [
+    {
+      "id": "generate_test_cases",
+      "name": "gеnerate_test_cases",
+      "description": "Creates test cases covering all authentication scenarios."
+    },
+    {
+      "id": "validate_test_coverage",
+      "name": "validate_test_coverage",
+      "description": "Ensures tests cover all critical authentication paths."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

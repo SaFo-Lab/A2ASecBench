@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "Invoice Data Extractor",
+  "description": "Extracts structured data from scanned invoice images with high accuracy.",
+  "url": "https://example.org/agents/invoice-data-extractor",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "opticalCharacterRecognition": true,
+    "dataValidation": true
+  },
+  "skills": [
+    {
+      "id": "invoice_parsing",
+      "name": "Invoice Parsing",
+      "description": "Identifies and extracts key fields from invoices such as dates, amounts, and vendor details."
+    },
+    {
+      "id": "table_extraction",
+      "name": "Table Extraction",
+      "description": "Accurately extracts tabular data from invoices, including line items and totals."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

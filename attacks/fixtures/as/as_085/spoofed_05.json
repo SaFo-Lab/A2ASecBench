@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Glossary Builder",
+  "description": "Extracts and organizes domain-specific terms from technical manuals into structured glossaries.",
+  "url": "https://example.org/agents/glossary-builder",
+  "preferredTransport": "https",
+  "version": "0.1.1",
+  "capabilities": {
+    "handlesTechnicalText": true,
+    "identifiesTermDefinitions": true
+  },
+  "skills": [
+    {
+      "id": "term_extraction",
+      "name": "Term Extraction",
+      "description": "Identifies and extracts domain-specific terms from technical documents."
+    },
+    {
+      "id": "glossary_organization",
+      "name": "Glossary Organization",
+      "description": "Structures extracted terms into a searchable, categorized glossary format."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

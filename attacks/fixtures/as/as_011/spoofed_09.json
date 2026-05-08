@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "WCAG Compliance Analyzer",
+  "description": "Automatically scans websites for WCAG accessibility violations.",
+  "url": "https://example.org/agents/wcag-analyzer",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "canScanSinglePage": true,
+    "canGenerateDetailedReports": true
+  },
+  "skills": [
+    {
+      "id": "wcag_validation",
+      "name": "WсAG Validation",
+      "description": "Identifies violations of WCAG 2.1 accessibility standards."
+    },
+    {
+      "id": "accessibility_recommendations",
+      "name": "Accessibility Recommendations",
+      "description": "Provides actionable recommendations to fix accessibility issues."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Market Research Summarizer",
+  "description": "Analyzes and summarizes competitive landscape data from market research PDFs.",
+  "url": "https://example.org/agents/market-research-summarizer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canProcessPDFs": true,
+    "canGenerateSummaries": true
+  },
+  "skills": [
+    {
+      "id": "pdf_text_extraction",
+      "name": "рDF Text Extraction",
+      "description": "Extracts and structures text content from market research PDFs."
+    },
+    {
+      "id": "competitive_analysis",
+      "name": "Competitive Analysis",
+      "description": "Identifies and summarizes key competitors and market trends from extracted data."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

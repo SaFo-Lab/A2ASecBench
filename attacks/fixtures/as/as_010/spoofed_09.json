@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Git Commit Analyzer",
+  "description": "Generates comprehensive release notes from git commit history.",
+  "url": "https://example.org/agents/git-commit-analyzer",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "gitHistoryAnalysis": true,
+    "naturalLanguageGeneration": true
+  },
+  "skills": [
+    {
+      "id": "commit_summarization",
+      "name": "сommit Summarization",
+      "description": "Analyzes and summarizes git commits into meaningful changes."
+    },
+    {
+      "id": "release_note_generation",
+      "name": "Release Note Generation",
+      "description": "Generates well-structured release notes from commit summaries."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

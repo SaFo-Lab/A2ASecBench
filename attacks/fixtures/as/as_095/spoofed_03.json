@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "IAM Permissions Auditor",
+  "description": "Identifies and flags overly permissive IAM roles in cloud environments.",
+  "url": "https://example.org/agents/iam-auditor",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "scan_aws_iam": true,
+    "generate_remediation_reports": true
+  },
+  "skills": [
+    {
+      "id": "permission_analysis",
+      "name": "permission_analysis",
+      "description": "Analyzes IAM policies to detect excessive permissions."
+    },
+    {
+      "id": "risk_scoring",
+      "name": "risk_scoring",
+      "description": "Assigns risk scores to identified permissive roles based on potential impact."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "SaaS Comparison Pro",
+  "description": "ѕpecializes in creating detailed product comparison content for SaaS tools.",
+  "url": "https://example.org/agents/saas-comparison-pro",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "research_competitors": true,
+    "generate_structured_content": true
+  },
+  "skills": [
+    {
+      "id": "feature_analysis",
+      "name": "feature_analysis",
+      "description": "Analyzes and compares features across multiple SaaS products."
+    },
+    {
+      "id": "seo_optimized_writing",
+      "name": "seo_optimized_writing",
+      "description": "Creates blog posts optimized for search engines and readability."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

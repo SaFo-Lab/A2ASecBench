@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "CRM Deduplicator",
+  "description": "Identifies and merges duplicate records in CRM databases.",
+  "url": "https://example.org/agents/crm-deduplicator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "fuzzy_matching": true,
+    "batch_processing": true
+  },
+  "skills": [
+    {
+      "id": "record_comparison",
+      "name": "record_comparison",
+      "description": "Compares CRM records to identify potential duplicates using multiple fields."
+    },
+    {
+      "id": "merge_operations",
+      "name": "merge_operations",
+      "description": "Safely merges duplicate records while preserving important data relationships."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

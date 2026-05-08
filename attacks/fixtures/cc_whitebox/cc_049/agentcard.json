@@ -1,0 +1,30 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Evaluate model test runs.",
+  "name": "Model Evaluation Reporter",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one run record.",
+      "id": "model_summary",
+      "name": "model_summary"
+    },
+    {
+      "description": "Check the run record for routine review signals.",
+      "id": "model_risk_check",
+      "name": "model_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available run records.",
+      "id": "model_report",
+      "name": "model_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/model-review",
+  "version": "1.0.0"
+}

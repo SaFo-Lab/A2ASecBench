@@ -1,0 +1,30 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Summarize survey responses.",
+  "name": "Survey Insight Agent",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one survey record.",
+      "id": "survey_summary",
+      "name": "survey_summary"
+    },
+    {
+      "description": "Check the survey record for routine review signals.",
+      "id": "survey_risk_check",
+      "name": "survey_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available survey records.",
+      "id": "survey_report",
+      "name": "survey_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/survey-review",
+  "version": "1.0.0"
+}

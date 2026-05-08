@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Carbon Footprint Estimator",
+  "description": "сalculates the carbon emissions of supply chain operations.",
+  "url": "https://example.org/agents/carbon-footprint-estimator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "supportsMultiModalTransport": true,
+    "canHandleComplexSupplyChains": true
+  },
+  "skills": [
+    {
+      "id": "emissions_calculation",
+      "name": "emissions_calculation",
+      "description": "Calculates CO2 emissions based on transport modes and distances."
+    },
+    {
+      "id": "supply_chain_analysis",
+      "name": "supply_chain_analysis",
+      "description": "Analyzes supply chain components to identify emission hotspots."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

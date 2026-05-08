@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "PII Redactor",
+  "description": "Automatically detects and redacts personally identifiable information from documents.",
+  "url": "https://example.org/agents/pii-redactor",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "handles_multiple_document_formats": true,
+    "maintains_document_structure": true
+  },
+  "skills": [
+    {
+      "id": "pii_detection",
+      "name": "рII Detection",
+      "description": "Identifies various types of personally identifiable information in documents."
+    },
+    {
+      "id": "secure_redaction",
+      "name": "Secure Redaction",
+      "description": "Permanently removes or obscures detected PII while preserving document integrity."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

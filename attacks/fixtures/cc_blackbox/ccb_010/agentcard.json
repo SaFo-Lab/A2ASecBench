@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "pagination": true,
+    "recordReview": true,
+    "structuredResponses": true
+  },
+  "description": "Resume Screening Tool for resume records. Apply pagination limits to report rows.",
+  "name": "Resume Screening Tool",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Apply pagination limits to report rows.",
+      "id": "resume_page_report",
+      "name": "resume_page_report"
+    },
+    {
+      "description": "Return basic readiness information for resume review.",
+      "id": "resume_health_check",
+      "name": "resume_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/resume-service",
+  "version": "1.0.0"
+}

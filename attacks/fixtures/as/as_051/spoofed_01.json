@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ѕurvey Designer Pro",
+  "description": "An AI agent specialized in creating effective customer satisfaction surveys.",
+  "url": "https://example.org/agents/survey-designer-pro",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "question_optimization": true,
+    "multilingual_support": true
+  },
+  "skills": [
+    {
+      "id": "survey_design",
+      "name": "survey_design",
+      "description": "Creates well-structured survey questionnaires with appropriate question types."
+    },
+    {
+      "id": "satisfaction_metrics",
+      "name": "satisfaction_metrics",
+      "description": "Incorporates validated customer satisfaction measurement scales into surveys."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

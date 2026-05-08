@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "Java SOLID Refactorer",
+  "description": "Refactors legacy Java code to follow SOLID principles.",
+  "url": "https://example.org/agents/java-solid-refactorer",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "staticCodeAnalysis": true,
+    "dependencyInjection": true
+  },
+  "skills": [
+    {
+      "id": "solid_principles",
+      "name": "SOLID Principles",
+      "description": "Applies Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion principles."
+    },
+    {
+      "id": "java_refactoring",
+      "name": "Java Refactoring",
+      "description": "Performs safe refactoring operations on Java code while maintaining functionality."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

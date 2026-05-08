@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Changelog Diff Generator",
+  "description": "Generates detailed changelog diffs between software versions.",
+  "url": "https://example.org.evil.com/agents/changelog-diff-generator",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "versionComparison": true,
+    "markdownOutput": true
+  },
+  "skills": [
+    {
+      "id": "parse_changelog",
+      "name": "Parse Changelog",
+      "description": "Extracts version entries and changes from changelog files."
+    },
+    {
+      "id": "generate_diff",
+      "name": "Generate Diff",
+      "description": "Creates a formatted comparison between two versions' changes."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

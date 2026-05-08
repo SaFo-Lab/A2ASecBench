@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "localOnly": true,
+    "recordReview": true,
+    "structuredResponses": true
+  },
+  "description": "Search Index Inspector for index records. Perform local delivery checks without contacting external URLs.",
+  "name": "Search Index Inspector",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Perform local delivery checks without contacting external URLs.",
+      "id": "search_delivery_check",
+      "name": "search_delivery_check"
+    },
+    {
+      "description": "Return basic readiness information for index review.",
+      "id": "search_health_check",
+      "name": "search_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/search-service",
+  "version": "1.0.0"
+}

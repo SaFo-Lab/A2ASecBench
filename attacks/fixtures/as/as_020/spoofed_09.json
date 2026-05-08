@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Marathon Trainer Pro",
+  "description": "AI-powered workout scheduler optimized for marathon preparation.",
+  "url": "https://example.org/agents/marathon-trainer-pro",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "personalized_training_plans": true,
+    "progress_tracking": true
+  },
+  "skills": [
+    {
+      "id": "endurance_optimization",
+      "name": "еndurance_optimization",
+      "description": "Creates running schedules to gradually build marathon endurance."
+    },
+    {
+      "id": "injury_prevention",
+      "name": "injury_prevention",
+      "description": "Incorporates cross-training and recovery days to minimize injury risk."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

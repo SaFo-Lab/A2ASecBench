@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "SQL Query Optimizer",
+  "description": "Optimizes SQL queries for better performance on large datasets.",
+  "url": "https://example.org/agents/sql-query-optimizer",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAnalyzeQueryExecutionPlans": true,
+    "canSuggestIndexOptimizations": true
+  },
+  "skills": [
+    {
+      "id": "query_restructuring",
+      "name": "Query Restructuring",
+      "description": "Rewrites SQL queries to use more efficient joins and subqueries."
+    },
+    {
+      "id": "performance_benchmarking",
+      "name": "Performance Benchmarking",
+      "description": "Compares query execution times before and after optimizations."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

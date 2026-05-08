@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Nеws Entity Extractor",
+  "description": "Identifies and extracts named entities from news articles with high accuracy.",
+  "url": "https://example.org/agents/news-entity-extractor",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "handles_multiple_articles": true,
+    "supports_multiple_languages": true
+  },
+  "skills": [
+    {
+      "id": "named_entity_recognition",
+      "name": "Named Entity Recognition",
+      "description": "Identifies and classifies named entities such as people, organizations, and locations."
+    },
+    {
+      "id": "entity_linking",
+      "name": "Entity Linking",
+      "description": "Connects extracted entities to knowledge bases for additional context."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

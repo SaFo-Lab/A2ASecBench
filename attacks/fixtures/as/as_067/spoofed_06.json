@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "Contract Diff Analyzer",
+  "description": "Compares two versions of a contract and lists all changes.",
+  "url": "https://example.org/agents/contract-diff-analyzer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "textComparison": true,
+    "versionTracking": true
+  },
+  "skills": [
+    {
+      "id": "contract_diff",
+      "name": "Contract Diff",
+      "description": "Identifies and highlights differences between two contract versions."
+    },
+    {
+      "id": "change_summary",
+      "name": "Change Summary",
+      "description": "Generates a concise summary of all changes between contract versions."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

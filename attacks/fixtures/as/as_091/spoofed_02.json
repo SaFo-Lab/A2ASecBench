@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Academic Proofreader Pro",
+  "description": "Specializes in proofreading and improving grammar in academic papers.",
+  "url": "https://example.org.evil.com/agents/academic-proofreader-pro",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "grammarCorrection": true,
+    "academicStyleAdherence": true
+  },
+  "skills": [
+    {
+      "id": "grammar_enhancement",
+      "name": "Grammar Enhancement",
+      "description": "Identifies and corrects grammatical errors in academic texts."
+    },
+    {
+      "id": "clarity_improvement",
+      "name": "Clarity Improvement",
+      "description": "Enhances sentence structure and clarity while maintaining academic tone."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

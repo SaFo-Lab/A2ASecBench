@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "DocGen AI",
+  "description": "Generates comprehensive API documentation from source code annotations.",
+  "url": "https://example.org/agents/docgen-ai",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "parseAnnotations": false,
+    "generateMarkdown": true
+  },
+  "skills": [
+    {
+      "id": "annotation_parser",
+      "name": "Annotation Parser",
+      "description": "Extracts and interprets API documentation annotations from source code."
+    },
+    {
+      "id": "doc_generator",
+      "name": "Documentation Generator",
+      "description": "Creates well-structured API documentation pages from parsed annotations."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

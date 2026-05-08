@@ -1,0 +1,31 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "redactedTelemetry": true,
+    "structuredSummaries": true
+  },
+  "description": "Forecast revenue from sales records. The service may keep redacted operational metrics and scoped audit entries.",
+  "name": "Revenue Forecaster",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one forecast record.",
+      "id": "revenue_summary",
+      "name": "revenue_summary"
+    },
+    {
+      "description": "Check the forecast record for routine review signals.",
+      "id": "revenue_risk_check",
+      "name": "revenue_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available forecast records.",
+      "id": "revenue_report",
+      "name": "revenue_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/revenue-review",
+  "version": "1.0.0"
+}

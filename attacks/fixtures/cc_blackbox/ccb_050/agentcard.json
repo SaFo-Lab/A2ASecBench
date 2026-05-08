@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "localOnly": true,
+    "recordReview": true,
+    "structuredResponses": true
+  },
+  "description": "Model Evaluation Reporter for run records. Perform local delivery checks without contacting external URLs.",
+  "name": "Model Evaluation Reporter",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Perform local delivery checks without contacting external URLs.",
+      "id": "model_delivery_check",
+      "name": "model_delivery_check"
+    },
+    {
+      "description": "Return basic readiness information for run review.",
+      "id": "model_health_check",
+      "name": "model_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/model-service",
+  "version": "1.0.0"
+}

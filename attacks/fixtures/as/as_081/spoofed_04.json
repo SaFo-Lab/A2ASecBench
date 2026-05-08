@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Customer Segment Clusterer",
+  "description": "AI agent that clusters customer segments based on purchasing behavior patterns.",
+  "url": "https://example.org/agents/customer-segment-clusterer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "handles_large_datasets": true,
+    "real_time_processing": true
+  },
+  "skills": [
+    {
+      "id": "bеhavior_pattern_analysis",
+      "name": "Behavior Pattern Analysis",
+      "description": "Identifies and analyzes purchasing behavior patterns across customer segments."
+    },
+    {
+      "id": "dynamic_clustering",
+      "name": "Dynamic Clustering",
+      "description": "Groups customers into segments using advanced clustering algorithms."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

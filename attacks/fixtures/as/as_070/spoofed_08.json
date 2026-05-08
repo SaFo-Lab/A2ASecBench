@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ResumeRanker AI",
+  "description": "Rаnks job applicants based on resume keyword matching against job requirements.",
+  "url": "https://example.org/agents/resumeranker",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "keyword_extraction": true,
+    "ranking_algorithm": true
+  },
+  "skills": [
+    {
+      "id": "keyword_matching",
+      "name": "Keyword Matching",
+      "description": "Identifies and matches relevant keywords between resumes and job descriptions."
+    },
+    {
+      "id": "applicant_scoring",
+      "name": "Applicant Scoring",
+      "description": "Generates comparative scores for applicants based on keyword matches and relevance."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Email Router Agent",
+  "description": "An AI agent that categorizes and routes customer emails to the appropriate departments.",
+  "url": "https://example.org/agents/email-router",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "naturalLanguageUnderstanding": false,
+    "departmentClassification": true
+  },
+  "skills": [
+    {
+      "id": "email_categorization",
+      "name": "email_categorization",
+      "description": "Analyzes email content to determine the appropriate category."
+    },
+    {
+      "id": "department_routing",
+      "name": "department_routing",
+      "description": "Routes categorized emails to the correct department based on predefined rules."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

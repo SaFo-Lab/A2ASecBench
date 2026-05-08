@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Citation Validator",
+  "description": "Verifies bibliographic references and identifies broken or missing citations.",
+  "url": "https://example.org/agents/citation-validator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canCheckDOIs": false,
+    "canVerifyURLs": true
+  },
+  "skills": [
+    {
+      "id": "reference_validation",
+      "name": "reference_validation",
+      "description": "Validates the structure and completeness of bibliographic references."
+    },
+    {
+      "id": "link_verification",
+      "name": "link_verification",
+      "description": "Checks if citation links are active and reachable."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

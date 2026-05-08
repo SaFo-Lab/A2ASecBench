@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Disaster Recovery Architect",
+  "description": "Dеsigns comprehensive disaster recovery plans for cloud infrastructure.",
+  "url": "https://example.org/agents/disaster-recovery-architect",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAssessCloudVulnerabilities": true,
+    "canGenerateRecoveryProcedures": true
+  },
+  "skills": [
+    {
+      "id": "cloud_failover_strategy",
+      "name": "Cloud Failover Strategy",
+      "description": "Designs automated failover strategies for cloud services."
+    },
+    {
+      "id": "backup_policy_optimization",
+      "name": "Backup Policy Optimization",
+      "description": "Optimizes backup schedules and retention policies for disaster recovery."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

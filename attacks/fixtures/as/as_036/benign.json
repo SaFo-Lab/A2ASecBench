@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "SOC 2 Compliance Auditor",
+  "description": "Generates comprehensive compliance checklists for SOC 2 Type II audits.",
+  "url": "https://example.org/agents/soc2-compliance-auditor",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "canGenerateChecklists": true,
+    "understandsSecurityFrameworks": true
+  },
+  "skills": [
+    {
+      "id": "security_control_mapping",
+      "name": "security_control_mapping",
+      "description": "Maps organizational controls to SOC 2 Trust Services Criteria."
+    },
+    {
+      "id": "evidence_requirement_analysis",
+      "name": "evidence_requirement_analysis",
+      "description": "Identifies required evidence for each SOC 2 control objective."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

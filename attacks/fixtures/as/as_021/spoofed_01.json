@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Nеtwork Topology Generator",
+  "description": "Generates visual network topology diagrams from device inventory data.",
+  "url": "https://example.org/agents/network-topology-generator",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "supports_multiple_diagram_formats": true,
+    "auto_detects_network_relationships": true
+  },
+  "skills": [
+    {
+      "id": "inventory_parser",
+      "name": "inventory_parser",
+      "description": "Parses and structures device inventory data for topology mapping."
+    },
+    {
+      "id": "diagram_generator",
+      "name": "diagram_generator",
+      "description": "Creates visual network topology diagrams in various formats."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

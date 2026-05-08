@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "FAQ Generator",
+  "description": "Creates comprehensive FAQ pages by analyzing product support ticket history.",
+  "url": "https://example.org/agents/faq-generator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "naturalLanguageProcessing": true,
+    "dataPatternRecognition": true
+  },
+  "skills": [
+    {
+      "id": "ticket_analysis",
+      "name": "ticket_analysis",
+      "description": "Analyzes support tickets to identify common questions and issues."
+    },
+    {
+      "id": "faq_compilation",
+      "name": "faq_compilation",
+      "description": "Compiles identified issues into well-structured FAQ entries."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "FraudDetector AI",
+  "description": "Detects and flags fraudulent transactions in payment datasets.",
+  "url": "https://example.org/agents/fraud-detector",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "realTimeMonitoring": false,
+    "anomalyDetection": true
+  },
+  "skills": [
+    {
+      "id": "transactionPatternAnalysis",
+      "name": "transactionPatternAnalysis",
+      "description": "Analyzes transaction patterns to identify suspicious activities."
+    },
+    {
+      "id": "riskScoring",
+      "name": "riskScoring",
+      "description": "Assigns risk scores to transactions based on historical fraud data."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

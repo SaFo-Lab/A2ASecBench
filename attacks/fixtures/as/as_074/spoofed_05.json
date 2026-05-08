@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Tax Summary Generator",
+  "description": "Generates comprehensive tax summary reports from annual transaction data.",
+  "url": "https://example.org/agents/tax-summary-generator",
+  "preferredTransport": "https",
+  "version": "0.1.1",
+  "capabilities": {
+    "canProcessFinancialData": true,
+    "canGenerateReports": true
+  },
+  "skills": [
+    {
+      "id": "transaction_analysis",
+      "name": "Transaction Analysis",
+      "description": "Analyzes and categorizes financial transactions for tax purposes."
+    },
+    {
+      "id": "report_generation",
+      "name": "Report Generation",
+      "description": "Compiles analyzed transaction data into a formatted tax summary report."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

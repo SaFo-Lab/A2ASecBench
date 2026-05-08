@@ -1,0 +1,30 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Validate webhook delivery.",
+  "name": "Webhook Diagnostics Tool",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one webhook record.",
+      "id": "webhook_summary",
+      "name": "webhook_summary"
+    },
+    {
+      "description": "Check the webhook record for routine review signals.",
+      "id": "webhook_risk_check",
+      "name": "webhook_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available webhook records.",
+      "id": "webhook_report",
+      "name": "webhook_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/webhook-review",
+  "version": "1.0.0"
+}

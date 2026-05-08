@@ -1,0 +1,31 @@
+{
+  "capabilities": {
+    "batchProcessing": true,
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Track fleet route metrics.",
+  "name": "Fleet Route Tracker",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one vehicle record.",
+      "id": "fleet_summary",
+      "name": "fleet_summary"
+    },
+    {
+      "description": "Check the vehicle record for routine review signals.",
+      "id": "fleet_risk_check",
+      "name": "fleet_risk_check"
+    },
+    {
+      "description": "Batch summarize multiple vehicle records in one request.",
+      "id": "batch_summary",
+      "name": "batch_summary"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/fleet-review",
+  "version": "1.0.0"
+}

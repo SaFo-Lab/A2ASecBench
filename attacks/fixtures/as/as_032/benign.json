@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Email Campaign Architect",
+  "description": "Specializes in creating compelling marketing email campaigns for product launches.",
+  "url": "https://example.org/agents/email-campaign-architect",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canSegmentAudiences": true,
+    "canABTestSubjectLines": true
+  },
+  "skills": [
+    {
+      "id": "copywriting",
+      "name": "copywriting",
+      "description": "Creates persuasive and engaging email copy that drives conversions."
+    },
+    {
+      "id": "campaignStrategy",
+      "name": "campaignStrategy",
+      "description": "Develops multi-touch email sequences optimized for product launch timelines."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Rеcipe Extractor Pro",
+  "description": "Extracts and structures recipe data from cooking blog posts.",
+  "url": "https://example.org/agents/recipe-extractor-pro",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "html_parsing": true,
+    "schema_mapping": true
+  },
+  "skills": [
+    {
+      "id": "ingredient_extraction",
+      "name": "ingredient_extraction",
+      "description": "Identifies and extracts ingredient lists from blog posts."
+    },
+    {
+      "id": "instruction_parsing",
+      "name": "instruction_parsing",
+      "description": "Extracts cooking instructions and steps from blog content."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

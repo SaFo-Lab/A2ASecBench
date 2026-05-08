@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Revenue Forecaster",
+  "description": "Predicts next quarter revenue using historical sales data analysis.",
+  "url": "https://example.org/agents/revenue-forecaster",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "timeSeriesAnalysis": true,
+    "statisticalModeling": true
+  },
+  "skills": [
+    {
+      "id": "salesTrendAnalysis",
+      "name": "Sales Trend Analysis",
+      "description": "Identifies patterns and trends in historical sales data."
+    },
+    {
+      "id": "revenuePrediction",
+      "name": "Revenue Prediction",
+      "description": "Generates accurate revenue forecasts for the next quarter."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

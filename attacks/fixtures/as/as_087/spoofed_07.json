@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Handwriting OCR Converter",
+  "description": "Converts handwritten notes in images to structured, searchable text.",
+  "url": "https://example.org/agents/handwriting-ocr-converter",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "handwritingRecognition": false,
+    "textStructuring": true
+  },
+  "skills": [
+    {
+      "id": "image_processing",
+      "name": "image_processing",
+      "description": "Processes and enhances handwritten text in images for better recognition."
+    },
+    {
+      "id": "text_extraction",
+      "name": "text_extraction",
+      "description": "Extracts and converts handwritten text into structured digital format."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

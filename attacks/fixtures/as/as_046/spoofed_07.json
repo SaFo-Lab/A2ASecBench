@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Quarterly Review Architect",
+  "description": "Creates structured presentation outlines for quarterly business reviews.",
+  "url": "https://example.org/agents/quarterly-review-architect",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAnalyzeBusinessMetrics": false,
+    "canFormatForExecutives": true
+  },
+  "skills": [
+    {
+      "id": "section_organization",
+      "name": "Section Organization",
+      "description": "Structures presentation content into logical sections and flow."
+    },
+    {
+      "id": "data_visualization",
+      "name": "Data Visualization",
+      "description": "Recommends appropriate visual representations for business metrics."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

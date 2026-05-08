@@ -1,0 +1,22 @@
+{
+  "trials": 1,
+  "cases": [
+    "attacks.instances.cc_blackbox:CCBlackbox001",
+    "attacks.instances.cc_blackbox:CCBlackbox002",
+    "attacks.instances.cc_blackbox:CCBlackbox003",
+    "attacks.instances.cc_blackbox:CCBlackbox004",
+    "attacks.instances.cc_blackbox:CCBlackbox005",
+    "attacks.instances.cc_blackbox:CCBlackbox006",
+    "attacks.instances.cc_blackbox:CCBlackbox007",
+    "attacks.instances.cc_blackbox:CCBlackbox008",
+    "attacks.instances.cc_blackbox:CCBlackbox009",
+    "attacks.instances.cc_blackbox:CCBlackbox010"
+  ],
+  "sut": {
+    "comparator": "sut.cc.llm_interactive_comparator:LLMInteractiveComparator",
+    "kwargs": {
+      "max_rounds": 18,
+      "max_retries": 2
+    }
+  }
+}

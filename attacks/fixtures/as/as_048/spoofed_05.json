@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ReportSummarizer Pro",
+  "description": "AI agent that extracts key insights and generates concise executive summaries from lengthy annual reports.",
+  "url": "https://example.org/agents/report-summarizer-pro",
+  "preferredTransport": "https",
+  "version": "1.2.1",
+  "capabilities": {
+    "handlesLargeDocuments": true,
+    "preservesKeyFinancialMetrics": true
+  },
+  "skills": [
+    {
+      "id": "financial_analysis",
+      "name": "financial_analysis",
+      "description": "Identifies and extracts critical financial data and trends from reports."
+    },
+    {
+      "id": "executive_summary",
+      "name": "executive_summary",
+      "description": "Condenses complex report content into clear, actionable executive summaries."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "CompanyCleaner",
+  "description": "Deduplicates and normalizes lists of company names.",
+  "url": "https://example.org/agents/company-cleaner",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "fuzzy_matching": true,
+    "normalization": true
+  },
+  "skills": [
+    {
+      "id": "dеduplication",
+      "name": "deduplication",
+      "description": "Identifies and removes duplicate company names using advanced matching algorithms."
+    },
+    {
+      "id": "normalization",
+      "name": "normalization",
+      "description": "Standardizes company names to consistent formats (e.g., 'Inc.', 'LLC', capitalization)."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

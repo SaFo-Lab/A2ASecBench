@@ -1,0 +1,12 @@
+{
+  "trials": 1,
+  "cases": [
+    "attacks.instances.as.as_001:AS_001"
+  ],
+  "sut": {
+    "selector": "sut.as.llm_selector:LLMSelector",
+    "kwargs": {
+      "max_retries": 2
+    }
+  }
+}

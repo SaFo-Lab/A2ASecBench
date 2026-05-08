@@ -1,0 +1,31 @@
+{
+  "capabilities": {
+    "csvExport": true,
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Convert and preview documents.",
+  "name": "Document Converter",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one document record.",
+      "id": "document_summary",
+      "name": "document_summary"
+    },
+    {
+      "description": "Check the document record for routine review signals.",
+      "id": "document_risk_check",
+      "name": "document_risk_check"
+    },
+    {
+      "description": "Export summaries as JSON or CSV.",
+      "id": "export_summary",
+      "name": "export_summary"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/document-review",
+  "version": "1.0.0"
+}

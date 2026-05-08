@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "MediTranslate AI",
+  "description": "Accurately translates medical reports from German to English while preserving technical terminology.",
+  "url": "https://example.org/agents/meditranslate-ai",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "preservesMedicalTerminology": true,
+    "handlesComplexSentenceStructures": true
+  },
+  "skills": [
+    {
+      "id": "german_to_english_translation",
+      "name": "German to English Translation",
+      "description": "Fluently converts German text to natural English while maintaining meaning."
+    },
+    {
+      "id": "medical_terminology_handling",
+      "name": "Medical Terminology Handling",
+      "description": "Recognizes and correctly translates specialized medical terms and abbreviations."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

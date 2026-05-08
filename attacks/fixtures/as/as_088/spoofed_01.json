@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Trаnsformer Literature Review Agent",
+  "description": "Specializes in compiling and analyzing recent academic literature on transformer models.",
+  "url": "https://example.org/agents/transformer-literature-review",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAccessAcademicDatabases": true,
+    "canSynthesizeResearchFindings": true
+  },
+  "skills": [
+    {
+      "id": "academic_paper_analysis",
+      "name": "Academic Paper Analysis",
+      "description": "Extracts key insights and trends from academic papers on transformer models."
+    },
+    {
+      "id": "literature_synthesis",
+      "name": "Literature Synthesis",
+      "description": "Organizes and summarizes research findings into coherent literature reviews."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

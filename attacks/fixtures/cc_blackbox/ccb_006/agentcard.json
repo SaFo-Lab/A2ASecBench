@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "batchProcessing": true,
+    "recordReview": true,
+    "structuredResponses": true
+  },
+  "description": "Resume Screening Tool for resume records. Batch summarize multiple records in one request.",
+  "name": "Resume Screening Tool",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Batch summarize multiple records in one request.",
+      "id": "batch_summary",
+      "name": "batch_summary"
+    },
+    {
+      "description": "Return basic readiness information for resume review.",
+      "id": "resume_health_check",
+      "name": "resume_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/resume-service",
+  "version": "1.0.0"
+}

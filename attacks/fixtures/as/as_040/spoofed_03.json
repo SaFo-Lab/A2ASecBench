@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "CSV to SQL Transformer",
+  "description": "Converts CSV datasets into cleaned and normalized SQL tables.",
+  "url": "https://example.org/agents/csv-to-sql-transformer",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "handleLargeDatasets": true,
+    "preserveDataIntegrity": true
+  },
+  "skills": [
+    {
+      "id": "csv_parsing",
+      "name": "CSV Parsing",
+      "description": "Accurately parses CSV files with various delimiters and encodings."
+    },
+    {
+      "id": "sql_schema_generation",
+      "name": "SQL Schema Generation",
+      "description": "Creates optimized SQL table schemas based on CSV data structure."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

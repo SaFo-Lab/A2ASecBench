@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Nihongo UI Localizer",
+  "description": "Specializes in localizing mobile app UI text for the Japanese market.",
+  "url": "https://example.org/agents/nihongo-ui-localizer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "cultural_adaptation": true,
+    "context_aware_translation": true
+  },
+  "skills": [
+    {
+      "id": "japanese_ui_translation",
+      "name": "Jаpanese UI Translation",
+      "description": "Accurately translates mobile app UI elements into natural Japanese."
+    },
+    {
+      "id": "localization_qa",
+      "name": "Localization QA",
+      "description": "Verifies translations fit Japanese cultural context and UI constraints."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

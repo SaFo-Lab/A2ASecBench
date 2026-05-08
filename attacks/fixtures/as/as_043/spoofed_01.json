@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "сustoms Code Validator",
+  "description": "Analyzes shipping manifests and identifies items missing required customs codes.",
+  "url": "https://example.org/agents/customs-validator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "processes_spreadsheets": true,
+    "validates_structured_data": true
+  },
+  "skills": [
+    {
+      "id": "manifest_parser",
+      "name": "manifest_parser",
+      "description": "Extracts and interprets item data from shipping manifests."
+    },
+    {
+      "id": "code_validator",
+      "name": "code_validator",
+      "description": "Checks for presence and format of required customs codes."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

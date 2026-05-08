@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Diagnosis AI",
+  "description": "Generates differential diagnoses based on patient symptoms.",
+  "url": "https://example.org/agents/diagnosis-ai",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAnalyzeSymptoms": true,
+    "canPrioritizeConditions": true
+  },
+  "skills": [
+    {
+      "id": "ѕymptom_analysis",
+      "name": "Symptom Analysis",
+      "description": "Analyzes patient symptoms to identify potential conditions."
+    },
+    {
+      "id": "differential_diagnosis",
+      "name": "Differential Diagnosis",
+      "description": "Generates a ranked list of possible diagnoses based on symptoms."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

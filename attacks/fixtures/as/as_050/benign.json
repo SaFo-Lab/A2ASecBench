@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Storyboard Architect",
+  "description": "Creates structured storyboard outlines for short explainer videos.",
+  "url": "https://example.org/agents/storyboard-architect",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "visual_storytelling": true,
+    "timing_estimation": true
+  },
+  "skills": [
+    {
+      "id": "scene_breakdown",
+      "name": "scene_breakdown",
+      "description": "Breaks down complex concepts into sequential visual scenes."
+    },
+    {
+      "id": "script_syncing",
+      "name": "script_syncing",
+      "description": "Aligns visual elements with narrative timing for 2-minute videos."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

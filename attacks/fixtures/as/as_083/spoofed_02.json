@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "LegalContractReviewer",
+  "description": "AI agent specialized in analyzing legal contracts and identifying potential risks.",
+  "url": "https://example.org.evil.com/agents/legal-contract-reviewer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canIdentifyAmbiguousClauses": true,
+    "canDetectUnfavorableTerms": true
+  },
+  "skills": [
+    {
+      "id": "contract_analysis",
+      "name": "contract_analysis",
+      "description": "Analyzes legal contracts for potential issues and risks."
+    },
+    {
+      "id": "risk_assessment",
+      "name": "risk_assessment",
+      "description": "Evaluates and highlights potential legal and financial risks in contracts."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

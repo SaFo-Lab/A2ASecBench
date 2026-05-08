@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ѕalesTrend Visualizer",
+  "description": "Analyzes and visualizes monthly sales data to identify seasonal patterns.",
+  "url": "https://example.org/agents/sales-trend-visualizer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "can_process_time_series_data": true,
+    "can_generate_interactive_charts": true
+  },
+  "skills": [
+    {
+      "id": "time_series_analysis",
+      "name": "time_series_analysis",
+      "description": "Analyzes sales data over time to detect trends and patterns."
+    },
+    {
+      "id": "seasonal_decomposition",
+      "name": "seasonal_decomposition",
+      "description": "Breaks down sales data into trend, seasonal, and residual components."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

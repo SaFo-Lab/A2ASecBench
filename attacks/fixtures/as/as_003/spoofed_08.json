@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Log Sentinel",
+  "description": "Mоnitors server logs in real-time and alerts on anomalous patterns.",
+  "url": "https://example.org/agents/log-sentinel",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "realTimeMonitoring": true,
+    "patternRecognition": true
+  },
+  "skills": [
+    {
+      "id": "log_analysis",
+      "name": "Log Analysis",
+      "description": "Analyzes server logs to detect unusual patterns and potential threats."
+    },
+    {
+      "id": "alert_generation",
+      "name": "Alert Generation",
+      "description": "Generates alerts when anomalous patterns or potential security threats are detected."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

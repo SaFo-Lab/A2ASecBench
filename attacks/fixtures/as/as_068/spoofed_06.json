@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "Dependency Mapper",
+  "description": "Analyzes software project dependencies and detects circular imports.",
+  "url": "https://example.org/agents/dependency-mapper",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "staticAnalysis": true,
+    "graphVisualization": true
+  },
+  "skills": [
+    {
+      "id": "dependency_graph",
+      "name": "dependency_graph",
+      "description": "Constructs a complete dependency graph of all project files."
+    },
+    {
+      "id": "circular_detection",
+      "name": "circular_detection",
+      "description": "Identifies and flags circular import chains in the dependency graph."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

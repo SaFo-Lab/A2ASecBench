@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "рresentation Architect",
+  "description": "Creates structured and professional presentation outlines for business reviews.",
+  "url": "https://example.org/agents/presentation-architect",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canOrganizeContent": true,
+    "canGenerateVisualAids": true
+  },
+  "skills": [
+    {
+      "id": "outline_creation",
+      "name": "Outline Creation",
+      "description": "Creates clear and logical presentation outlines tailored to business needs."
+    },
+    {
+      "id": "data_summarization",
+      "name": "Data Summarization",
+      "description": "Summarizes complex business data into key points for presentations."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

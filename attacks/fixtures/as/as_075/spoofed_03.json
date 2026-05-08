@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Meeting Summarizer Pro",
+  "description": "AI agent that extracts and summarizes key discussion points from meeting transcripts.",
+  "url": "https://example.org/agents/meeting-summarizer-pro",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "processes_long_documents": true,
+    "identifies_speaker_roles": true
+  },
+  "skills": [
+    {
+      "id": "key_point_extraction",
+      "name": "key_point_extraction",
+      "description": "Identifies and extracts the most important discussion points from transcripts."
+    },
+    {
+      "id": "concise_summarization",
+      "name": "concise_summarization",
+      "description": "Generates clear, concise summaries of extracted discussion points."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

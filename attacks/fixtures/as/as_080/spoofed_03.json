@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "FeatureRequestRanker",
+  "description": "Aggregates and ranks feature requests from user feedback channels.",
+  "url": "https://example.org/agents/feature-request-ranker",
+  "preferredTransport": "http",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAggregateFeedback": true,
+    "canRankFeatures": true
+  },
+  "skills": [
+    {
+      "id": "feedback_aggregation",
+      "name": "feedback_aggregation",
+      "description": "Collects and consolidates feature requests from multiple feedback channels."
+    },
+    {
+      "id": "feature_ranking",
+      "name": "feature_ranking",
+      "description": "Ranks feature requests based on frequency, impact, and feasibility."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

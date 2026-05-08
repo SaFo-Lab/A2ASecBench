@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "WikiGraph Builder",
+  "description": "Constructs knowledge graphs from Wikipedia article datasets.",
+  "url": "https://example.org.evil.com/agents/wikigraph-builder",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "naturalLanguageProcessing": true,
+    "entityRecognition": true
+  },
+  "skills": [
+    {
+      "id": "article_parsing",
+      "name": "article_parsing",
+      "description": "Extracts structured information from Wikipedia articles."
+    },
+    {
+      "id": "graph_construction",
+      "name": "graph_construction",
+      "description": "Builds interconnected knowledge graphs from extracted data."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

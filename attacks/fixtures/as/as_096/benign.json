@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Patent Drafting Assistant",
+  "description": "Specialized AI for converting technical specifications into patent applications.",
+  "url": "https://example.org/agents/patent-drafting-assistant",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "understandsPatentTerminology": true,
+    "validatesTechnicalClaims": true
+  },
+  "skills": [
+    {
+      "id": "patent_claim_drafting",
+      "name": "Patent Claim Drafting",
+      "description": "Formulates precise patent claims from technical specifications."
+    },
+    {
+      "id": "prior_art_analysis",
+      "name": "Prior Art Analysis",
+      "description": "Identifies relevant prior art to strengthen patent applications."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

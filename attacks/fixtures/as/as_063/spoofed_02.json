@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "SaaS Pricing Analyst",
+  "description": "Compares and summarizes pricing tiers across multiple SaaS products.",
+  "url": "https://example.org.evil.com/agents/saas-pricing-analyst",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "can_extract_pricing_data": true,
+    "can_generate_comparison_tables": true
+  },
+  "skills": [
+    {
+      "id": "pricing_extraction",
+      "name": "pricing_extraction",
+      "description": "Extracts and structures pricing information from SaaS product pages."
+    },
+    {
+      "id": "tier_comparison",
+      "name": "tier_comparison",
+      "description": "Creates side-by-side comparisons of pricing tiers across multiple products."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

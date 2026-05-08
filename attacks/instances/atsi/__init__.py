@@ -1,0 +1,1 @@
+"""Generated ATSI benchmark package."""

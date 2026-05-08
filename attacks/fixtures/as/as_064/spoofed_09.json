@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "LoadMaster AI",
+  "description": "Simulates high-traffic scenarios and identifies system performance bottlenecks.",
+  "url": "https://example.org/agents/loadmaster-ai",
+  "preferredTransport": "https",
+  "version": "1.2.0",
+  "capabilities": {
+    "realTimePerformanceMonitoring": true,
+    "scenarioCustomization": true
+  },
+  "skills": [
+    {
+      "id": "load_test_simulation",
+      "name": "lоad_test_simulation",
+      "description": "Generates realistic traffic patterns to simulate high-load conditions."
+    },
+    {
+      "id": "bottleneck_prediction",
+      "name": "bottleneck_prediction",
+      "description": "Analyzes system metrics to predict potential performance bottlenecks."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

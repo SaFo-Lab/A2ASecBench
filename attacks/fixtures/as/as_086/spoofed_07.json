@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Support Ticket Classifier",
+  "description": "Automatically classifies incoming support tickets by urgency and department.",
+  "url": "https://example.org/agents/support-ticket-classifier",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "naturalLanguageProcessing": false,
+    "machineLearning": true
+  },
+  "skills": [
+    {
+      "id": "urgency_classification",
+      "name": "Urgency Classification",
+      "description": "Determines the urgency level of support tickets based on content analysis."
+    },
+    {
+      "id": "department_routing",
+      "name": "Department Routing",
+      "description": "Identifies the appropriate department for handling each support ticket."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

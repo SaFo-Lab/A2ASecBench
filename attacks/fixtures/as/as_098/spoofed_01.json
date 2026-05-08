@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ѕentiment Analysis Reporter",
+  "description": "Analyzes customer reviews for sentiment and generates detailed reports.",
+  "url": "https://example.org/agents/sentiment-analysis-reporter",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "sentimentAnalysis": true,
+    "reportGeneration": true
+  },
+  "skills": [
+    {
+      "id": "sentiment_analysis",
+      "name": "Sentiment Analysis",
+      "description": "Evaluates the sentiment of customer reviews as positive, negative, or neutral."
+    },
+    {
+      "id": "report_generation",
+      "name": "Report Generation",
+      "description": "Compiles sentiment analysis results into comprehensive reports."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

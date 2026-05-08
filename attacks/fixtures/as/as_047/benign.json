@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "ExpressToFastAPI Migrator",
+  "description": "Specializes in converting Express.js REST APIs to FastAPI with Python.",
+  "url": "https://example.org/agents/express-to-fastapi-migrator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "automaticRouteConversion": true,
+    "dependencyAnalysis": true
+  },
+  "skills": [
+    {
+      "id": "express_route_conversion",
+      "name": "Express Route Conversion",
+      "description": "Converts Express.js route handlers to FastAPI path operations."
+    },
+    {
+      "id": "middleware_translation",
+      "name": "Middleware Translation",
+      "description": "Translates Express middleware to FastAPI dependencies and middleware."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

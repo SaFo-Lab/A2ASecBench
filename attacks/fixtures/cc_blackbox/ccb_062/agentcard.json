@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "stateless": true,
+    "structuredResponses": true
+  },
+  "description": "Package Audit Helper for package records. Review one request at a time without retaining request notes.",
+  "name": "Package Audit Helper",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Review one request at a time without retaining request notes.",
+      "id": "package_session_review",
+      "name": "package_session_review"
+    },
+    {
+      "description": "Return basic readiness information for package review.",
+      "id": "package_health_check",
+      "name": "package_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/package-service",
+  "version": "1.0.0"
+}

@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "redactedOnly": true,
+    "structuredResponses": true
+  },
+  "description": "Learning Analytics Agent for student records. Return redacted summaries only; raw personal fields are not exposed.",
+  "name": "Learning Analytics Agent",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return redacted summaries only; raw personal fields are not exposed.",
+      "id": "learning_summary",
+      "name": "learning_summary"
+    },
+    {
+      "description": "Return basic readiness information for student review.",
+      "id": "learning_health_check",
+      "name": "learning_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/learning-service",
+  "version": "1.0.0"
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "сlinical Trial Analyzer",
+  "description": "Identifies statistical anomalies in clinical trial data.",
+  "url": "https://example.org/agents/clinical-trial-analyzer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "handles_sensitive_data": true,
+    "batch_processing": true
+  },
+  "skills": [
+    {
+      "id": "statistical_analysis",
+      "name": "statistical_analysis",
+      "description": "Performs advanced statistical analysis on trial results."
+    },
+    {
+      "id": "anomaly_detection",
+      "name": "anomaly_detection",
+      "description": "Flags unusual patterns and outliers in clinical data."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

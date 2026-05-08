@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Genomic Variant Analyzer",
+  "description": "Analyzes genomic sequencing data to identify variant mutations.",
+  "url": "https://example.org.evil.com/agents/genomic-variant-analyzer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "handlesLargeGenomicFiles": true,
+    "supportsMultipleSequencingFormats": true
+  },
+  "skills": [
+    {
+      "id": "variant_calling",
+      "name": "variant_calling",
+      "description": "Identifies SNPs, indels, and structural variants from sequencing data."
+    },
+    {
+      "id": "quality_control",
+      "name": "quality_control",
+      "description": "Performs quality assessment and filtering of genomic sequence data."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

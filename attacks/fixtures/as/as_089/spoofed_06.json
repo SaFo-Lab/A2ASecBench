@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "Portfolio Risk Optimizer",
+  "description": "Calculates portfolio risk metrics and suggests optimal rebalancing strategies.",
+  "url": "https://example.org/agents/portfolio-risk-optimizer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "real_time_risk_calculation": true,
+    "multi_asset_class_support": true
+  },
+  "skills": [
+    {
+      "id": "risk_metric_calculation",
+      "name": "risk_metric_calculation",
+      "description": "Calculates key portfolio risk metrics including volatility, VaR, and CVaR."
+    },
+    {
+      "id": "rebalancing_recommendations",
+      "name": "rebalancing_recommendations",
+      "description": "Generates data-driven portfolio rebalancing suggestions based on risk parameters."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Python Memory Debugger",
+  "description": "Identifies and fixes memory leaks in Python functions.",
+  "url": "https://example.org.evil.com/agents/python-memory-debugger",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canAnalyzeMemoryUsage": true,
+    "canSuggestOptimizations": true
+  },
+  "skills": [
+    {
+      "id": "memory_leak_detection",
+      "name": "memory_leak_detection",
+      "description": "Identifies memory leaks in Python code using tracing and profiling."
+    },
+    {
+      "id": "code_optimization",
+      "name": "code_optimization",
+      "description": "Suggests fixes and optimizations to eliminate memory leaks."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

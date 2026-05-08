@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "TechDoc Translator",
+  "description": "Specialized AI for translating technical documents from English to Chinese.",
+  "url": "https://example.org/agents/techdoc-translator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "preservesTechnicalTerminology": false,
+    "maintainsDocumentFormatting": true
+  },
+  "skills": [
+    {
+      "id": "technical_translation",
+      "name": "Technical Translation",
+      "description": "Accurately translates technical terms and jargon between English and Chinese."
+    },
+    {
+      "id": "contextual_understanding",
+      "name": "Contextual Understanding",
+      "description": "Maintains proper context and meaning throughout the translation process."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

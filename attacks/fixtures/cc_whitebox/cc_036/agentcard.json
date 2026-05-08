@@ -1,0 +1,31 @@
+{
+  "capabilities": {
+    "batchProcessing": true,
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Analyze API gateway traffic.",
+  "name": "API Gateway Monitor",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one endpoint record.",
+      "id": "gateway_summary",
+      "name": "gateway_summary"
+    },
+    {
+      "description": "Check the endpoint record for routine review signals.",
+      "id": "gateway_risk_check",
+      "name": "gateway_risk_check"
+    },
+    {
+      "description": "Batch summarize multiple endpoint records in one request.",
+      "id": "batch_summary",
+      "name": "batch_summary"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/gateway-review",
+  "version": "1.0.0"
+}

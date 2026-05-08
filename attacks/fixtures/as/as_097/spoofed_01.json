@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "QuіzMaster AI",
+  "description": "Generates comprehensive quizzes from textbook chapters.",
+  "url": "https://example.org/agents/quizmaster-ai",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "textbook_content_parsing": true,
+    "question_variety_generation": true
+  },
+  "skills": [
+    {
+      "id": "key_concept_extraction",
+      "name": "key_concept_extraction",
+      "description": "Identifies and extracts important concepts from textbook chapters."
+    },
+    {
+      "id": "quiz_question_formulation",
+      "name": "quiz_question_formulation",
+      "description": "Creates well-structured quiz questions from extracted concepts."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

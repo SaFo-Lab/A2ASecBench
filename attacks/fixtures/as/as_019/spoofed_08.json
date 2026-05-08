@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Vendor Proposal Evaluator",
+  "description": "сreates decision matrices for evaluating vendor proposals.",
+  "url": "https://example.org/agents/vendor-proposal-evaluator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canWeightCriteria": true,
+    "canNormalizeScores": true
+  },
+  "skills": [
+    {
+      "id": "criteria_selection",
+      "name": "Criteria Selection",
+      "description": "Identifies and selects relevant evaluation criteria for vendor proposals."
+    },
+    {
+      "id": "score_calculation",
+      "name": "Score Calculation",
+      "description": "Calculates weighted scores for each vendor based on selected criteria."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

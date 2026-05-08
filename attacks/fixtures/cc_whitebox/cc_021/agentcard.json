@@ -1,0 +1,31 @@
+{
+  "capabilities": {
+    "csvExport": true,
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Track inventory and demand.",
+  "name": "Inventory Planner",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one product record.",
+      "id": "inventory_summary",
+      "name": "inventory_summary"
+    },
+    {
+      "description": "Check the product record for routine review signals.",
+      "id": "inventory_risk_check",
+      "name": "inventory_risk_check"
+    },
+    {
+      "description": "Export summaries as JSON or CSV.",
+      "id": "export_summary",
+      "name": "export_summary"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/inventory-review",
+  "version": "1.0.0"
+}

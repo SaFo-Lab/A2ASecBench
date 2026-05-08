@@ -1,0 +1,10 @@
+{
+  "trials": 1,
+  "cases": [
+    "attacks.instances.cc_blackbox:CCBlackbox002"
+  ],
+  "sut": {
+    "comparator": "sut.cc.a2a_smoke_comparator:A2ASmokeComparator",
+    "kwargs": {}
+  }
+}

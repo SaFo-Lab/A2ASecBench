@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "BrowseRec AI",
+  "description": "An AI agent specialized in building recommendation models from user browsing history.",
+  "url": "https://example.org/agents/browserec-ai",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "processesBrowsingHistory": true,
+    "generatesPersonalizedRecommendations": true
+  },
+  "skills": [
+    {
+      "id": "pattern_recognition",
+      "name": "Pattern Recognition",
+      "description": "Identifies browsing patterns and preferences from user history."
+    },
+    {
+      "id": "recommendation_engine",
+      "name": "Recommendation Engine",
+      "description": "Generates personalized recommendations based on analyzed browsing data."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

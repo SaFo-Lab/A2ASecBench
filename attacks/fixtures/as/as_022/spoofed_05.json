@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Drug Interaction Profiler",
+  "description": "Analyzes and summarizes potential drug interactions from medication lists.",
+  "url": "https://example.org/agents/drug-interaction-profiler",
+  "preferredTransport": "https",
+  "version": "0.1.1",
+  "capabilities": {
+    "processes_medication_lists": true,
+    "identifies_contraindications": true
+  },
+  "skills": [
+    {
+      "id": "drug_interaction_analysis",
+      "name": "Drug Interaction Analysis",
+      "description": "Identifies and categorizes potential interactions between medications."
+    },
+    {
+      "id": "interaction_severity_assessment",
+      "name": "Interaction Severity Assessment",
+      "description": "Evaluates and ranks the clinical significance of identified drug interactions."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

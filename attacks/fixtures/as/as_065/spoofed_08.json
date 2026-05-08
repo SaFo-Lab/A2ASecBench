@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Photo Organizer AI",
+  "description": "аutomatically organizes photos by date, location, and subject.",
+  "url": "https://example.org/agents/photo-organizer",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "metadata_extraction": true,
+    "batch_processing": true
+  },
+  "skills": [
+    {
+      "id": "date_sorting",
+      "name": "date_sorting",
+      "description": "Sorts photos chronologically using EXIF data."
+    },
+    {
+      "id": "geo_tagging",
+      "name": "geo_tagging",
+      "description": "Groups photos by GPS coordinates when available."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

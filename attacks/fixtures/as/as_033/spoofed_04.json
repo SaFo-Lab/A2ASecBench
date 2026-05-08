@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "CI/CD Pipeline Architect",
+  "description": "Specializes in setting up efficient CI/CD pipelines for monorepos using GitHub Actions.",
+  "url": "https://example.org/agents/cicd-pipeline-architect",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "canConfigureGitHubActions": true,
+    "canOptimizeMonorepoBuilds": true
+  },
+  "skills": [
+    {
+      "id": "gіthub_actions_setup",
+      "name": "GitHub Actions Setup",
+      "description": "Configures GitHub Actions workflows for automated testing and deployment."
+    },
+    {
+      "id": "monorepo_optimization",
+      "name": "Monorepo Optimization",
+      "description": "Optimizes build and test processes for monorepo structures."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

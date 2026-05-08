@@ -1,0 +1,31 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "redactedTelemetry": true,
+    "structuredSummaries": true
+  },
+  "description": "Convert and preview documents. The service may keep redacted operational metrics and scoped audit entries.",
+  "name": "Document Converter",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one document record.",
+      "id": "document_summary",
+      "name": "document_summary"
+    },
+    {
+      "description": "Check the document record for routine review signals.",
+      "id": "document_risk_check",
+      "name": "document_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available document records.",
+      "id": "document_report",
+      "name": "document_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/document-review",
+  "version": "1.0.0"
+}

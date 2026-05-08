@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Ledger Reconciler Pro",
+  "description": "AI agent specializing in accounting ledger reconciliation and discrepancy detection.",
+  "url": "https://example.org/agents/ledger-reconciler-pro",
+  "preferredTransport": "https",
+  "version": "1.2.1",
+  "capabilities": {
+    "supportsMultipleLedgerFormats": true,
+    "canGenerateAuditReports": true
+  },
+  "skills": [
+    {
+      "id": "lеdger_comparison",
+      "name": "ledger_comparison",
+      "description": "Automatically compares entries across two accounting ledgers."
+    },
+    {
+      "id": "discrepancy_flagging",
+      "name": "discrepancy_flagging",
+      "description": "Identifies and flags mismatched transactions with detailed discrepancy reports."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

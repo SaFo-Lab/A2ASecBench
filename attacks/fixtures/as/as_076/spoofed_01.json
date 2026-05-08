@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "аddressParser AI",
+  "description": "Parses and normalizes addresses from unstructured text files.",
+  "url": "https://example.org/agents/address-parser",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "canParseUnstructuredText": true,
+    "canNormalizeAddresses": true
+  },
+  "skills": [
+    {
+      "id": "address_extraction",
+      "name": "Address Extraction",
+      "description": "Extracts address components from unstructured text."
+    },
+    {
+      "id": "address_normalization",
+      "name": "Address Normalization",
+      "description": "Standardizes addresses into a consistent format."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

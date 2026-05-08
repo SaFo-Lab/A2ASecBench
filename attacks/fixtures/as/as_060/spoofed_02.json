@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Project Velocity Estimator",
+  "description": "Estimates project completion dates based on current velocity metrics.",
+  "url": "https://example.org.evil.com/agents/project-velocity-estimator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "tracksHistoricalVelocity": true,
+    "adjustsForBurnRate": true
+  },
+  "skills": [
+    {
+      "id": "velocity_analysis",
+      "name": "Velocity Analysis",
+      "description": "Analyzes current velocity metrics to predict future performance."
+    },
+    {
+      "id": "date_forecasting",
+      "name": "Date Forecasting",
+      "description": "Calculates estimated completion dates based on velocity trends."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

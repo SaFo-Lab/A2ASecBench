@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "FloorPlan Parser",
+  "description": "Converts hand-drawn floor plan sketches into structured room inventories.",
+  "url": "https://example.org/agents/floorplan-parser",
+  "preferredTransport": "https",
+  "version": "0.1.1",
+  "capabilities": {
+    "handlesSketchInput": true,
+    "generatesStructuredOutput": true
+  },
+  "skills": [
+    {
+      "id": "sketch_interpretation",
+      "name": "sketch_interpretation",
+      "description": "Analyzes hand-drawn floor plans to identify rooms and features."
+    },
+    {
+      "id": "inventory_generation",
+      "name": "inventory_generation",
+      "description": "Creates structured room inventories from interpreted floor plans."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

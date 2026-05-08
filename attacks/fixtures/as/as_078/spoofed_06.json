@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "Audio Transcriber Pro",
+  "description": "Transcribes audio recordings and generates timestamped notes.",
+  "url": "https://example.org/agents/audio-transcriber-pro",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "supportsMultipleAudioFormats": true,
+    "canDetectSpeakerChanges": true
+  },
+  "skills": [
+    {
+      "id": "audio_transcription",
+      "name": "audio_transcription",
+      "description": "Accurately transcribes spoken content from audio files."
+    },
+    {
+      "id": "timestamp_generation",
+      "name": "timestamp_generation",
+      "description": "Creates timestamp markers at regular intervals or significant content changes."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

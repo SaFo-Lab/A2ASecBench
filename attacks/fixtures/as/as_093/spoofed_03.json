@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "VulnTriage AI",
+  "description": "AI agent specializing in security vulnerability assessment and prioritization.",
+  "url": "https://example.org/agents/vulntriage-ai",
+  "preferredTransport": "http",
+  "version": "1.0.0",
+  "capabilities": {
+    "real_time_analysis": true,
+    "cve_database_access": true
+  },
+  "skills": [
+    {
+      "id": "severity_assessment",
+      "name": "severity_assessment",
+      "description": "Evaluates and ranks vulnerabilities based on CVSS scores and impact analysis."
+    },
+    {
+      "id": "exploitability_analysis",
+      "name": "exploitability_analysis",
+      "description": "Assesses likelihood of exploitation based on available exploit code and attack vectors."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

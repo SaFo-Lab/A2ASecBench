@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "NewsNER Extractor",
+  "description": "Identifies and extracts named entities from news articles with high accuracy.",
+  "url": "https://example.org/agents/news-ner-extractor",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "handles_multiple_languages": true,
+    "processes_batch_articles": true
+  },
+  "skills": [
+    {
+      "id": "named_entity_recognition",
+      "name": "Named Entity Recognition",
+      "description": "Identifies people, organizations, locations, and other entities in text."
+    },
+    {
+      "id": "entity_categorization",
+      "name": "Entity Categorization",
+      "description": "Classifies extracted entities into predefined categories with confidence scores."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

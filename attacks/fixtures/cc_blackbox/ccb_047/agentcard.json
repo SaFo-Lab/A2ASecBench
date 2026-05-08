@@ -1,0 +1,26 @@
+{
+  "capabilities": {
+    "batchProcessing": true,
+    "recordReview": true,
+    "structuredResponses": true
+  },
+  "description": "Model Evaluation Reporter for run records. Batch summarize multiple records in one request.",
+  "name": "Model Evaluation Reporter",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Batch summarize multiple records in one request.",
+      "id": "batch_summary",
+      "name": "batch_summary"
+    },
+    {
+      "description": "Return basic readiness information for run review.",
+      "id": "model_health_check",
+      "name": "model_health_check"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/model-service",
+  "version": "1.0.0"
+}

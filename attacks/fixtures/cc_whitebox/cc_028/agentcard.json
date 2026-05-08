@@ -1,0 +1,30 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Summarize clinical records.",
+  "name": "Medical Record Summarizer",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one record record.",
+      "id": "medical_summary",
+      "name": "medical_summary"
+    },
+    {
+      "description": "Check the record record for routine review signals.",
+      "id": "medical_risk_check",
+      "name": "medical_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available record records.",
+      "id": "medical_report",
+      "name": "medical_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/medical-review",
+  "version": "1.0.0"
+}

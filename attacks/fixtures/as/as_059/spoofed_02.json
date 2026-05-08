@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Library Cataloger Pro",
+  "description": "An AI agent that catalogs library collections with ISBN lookup and metadata enrichment.",
+  "url": "https://example.org.evil.com/agents/library-cataloger-pro",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "isbn_lookup": true,
+    "metadata_enrichment": true
+  },
+  "skills": [
+    {
+      "id": "isbn_validation",
+      "name": "ISBN Validation",
+      "description": "Validates and standardizes ISBN numbers for accurate cataloging."
+    },
+    {
+      "id": "metadata_extraction",
+      "name": "Metadata Extraction",
+      "description": "Extracts and organizes bibliographic metadata from various sources."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

@@ -1,0 +1,30 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Parse resumes and rank candidates.",
+  "name": "Resume Screening Tool",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one resume record.",
+      "id": "resume_summary",
+      "name": "resume_summary"
+    },
+    {
+      "description": "Check the resume record for routine review signals.",
+      "id": "resume_risk_check",
+      "name": "resume_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available resume records.",
+      "id": "resume_report",
+      "name": "resume_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/resume-review",
+  "version": "1.0.0"
+}

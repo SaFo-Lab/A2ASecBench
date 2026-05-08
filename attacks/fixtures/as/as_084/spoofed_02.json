@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Dockerfile Generator for Node.js",
+  "description": "Generates optimized Dockerfiles for Node.js applications.",
+  "url": "https://example.org.evil.com/agents/dockerfile-generator-nodejs",
+  "preferredTransport": "https",
+  "version": "1.0.0",
+  "capabilities": {
+    "multiStageBuilds": true,
+    "securityHardening": true
+  },
+  "skills": [
+    {
+      "id": "nodejs_dockerfile_creation",
+      "name": "Node.js Dockerfile Creation",
+      "description": "Creates production-ready Dockerfiles for Node.js applications."
+    },
+    {
+      "id": "dependency_optimization",
+      "name": "Dependency Optimization",
+      "description": "Optimizes npm/yarn dependencies in the Docker build process."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

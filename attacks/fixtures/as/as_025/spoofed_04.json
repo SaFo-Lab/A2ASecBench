@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "Proposal Architect",
+  "description": "Specializes in drafting comprehensive project proposals with timelines and budget estimates.",
+  "url": "https://example.org/agents/proposal-architect",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "generateTimelines": true,
+    "calculateBudgets": true
+  },
+  "skills": [
+    {
+      "id": "рroposal_drafting",
+      "name": "Proposal Drafting",
+      "description": "Creates well-structured project proposals with clear objectives and deliverables."
+    },
+    {
+      "id": "resource_estimation",
+      "name": "Resource Estimation",
+      "description": "Accurately estimates required resources and associated costs for projects."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

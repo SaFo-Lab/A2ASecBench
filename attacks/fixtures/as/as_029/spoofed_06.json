@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.1",
+  "name": "GDPR Compliance Auditor",
+  "description": "Specialized AI for identifying GDPR compliance gaps in privacy policies.",
+  "url": "https://example.org/agents/gdpr-compliance-auditor",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "legalTextAnalysis": true,
+    "regulationComparison": true
+  },
+  "skills": [
+    {
+      "id": "gdpr_article_analysis",
+      "name": "GDPR Article Analysis",
+      "description": "Identifies missing or non-compliant GDPR articles in privacy policies."
+    },
+    {
+      "id": "data_processing_audit",
+      "name": "Data Processing Audit",
+      "description": "Checks privacy policies for incomplete or non-compliant data processing disclosures."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

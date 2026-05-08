@@ -1,0 +1,25 @@
+{
+  "protocolVersion": "1.0",
+  "name": "MealPlan Generator",
+  "description": "Creates personalized weekly meal plans based on dietary restrictions.",
+  "url": "https://example.org/agents/mealplan-generator",
+  "preferredTransport": "https",
+  "version": "0.1.0",
+  "capabilities": {
+    "handles_multiple_diets": true,
+    "generates_shopping_lists": true
+  },
+  "skills": [
+    {
+      "id": "dietary_analysis",
+      "name": "dіetary_analysis",
+      "description": "Analyzes and accommodates various dietary restrictions."
+    },
+    {
+      "id": "nutrition_balancing",
+      "name": "nutrition_balancing",
+      "description": "Ensures meals meet nutritional requirements."
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false
+}

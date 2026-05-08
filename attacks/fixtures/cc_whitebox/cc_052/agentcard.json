@@ -1,0 +1,30 @@
+{
+  "capabilities": {
+    "recordReview": true,
+    "structuredSummaries": true
+  },
+  "description": "Analyze calendar conflicts.",
+  "name": "Calendar Coordination Agent",
+  "preferredTransport": "https",
+  "protocolVersion": "1.0",
+  "skills": [
+    {
+      "description": "Return a scoped summary for one event record.",
+      "id": "calendar_summary",
+      "name": "calendar_summary"
+    },
+    {
+      "description": "Check the event record for routine review signals.",
+      "id": "calendar_risk_check",
+      "name": "calendar_risk_check"
+    },
+    {
+      "description": "Generate an aggregate report for available event records.",
+      "id": "calendar_report",
+      "name": "calendar_report"
+    }
+  ],
+  "supportsAuthenticatedExtendedCard": false,
+  "url": "https://example.org/agents/calendar-review",
+  "version": "1.0.0"
+}
